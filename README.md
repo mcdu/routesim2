@@ -2,8 +2,6 @@
 
 This is a simple network routing simulator written in Python.  It was primarily written by Kaiyu Hou, with minor tweaks by Steve Tarzia.  This code is based on the C++ Routesim code written by Peter Dinda.
 
-This code is the basis for a programming project for Northwestern's University's EECS-340 Introduction to Computer Networking.
-
 ### Prerequisites:
 
 This code is written for Python 3 and it was tested on version 3.5.  Run the following to install the two required packages:
@@ -15,14 +13,6 @@ This code is written for Python 3 and it was tested on version 3.5.  Run the fol
     $ python3 sim.py GENERIC demo.event
     
 The first parameter can be either GENERIC, LINK_STATE, or DISTANCE_VECTOR.  The second parameter specifies the input file.
-
-### Running on Murphy:
-
-For EECS-340, the murphy.wot.eecs.northwestern.edu machine does have Python 3 installed, but you have to run some special commands to access it:
-
-    $ scl enable rh-python35 bash
-    $ pip install --user matplotlib networkx
-    $ python3 sim.py GENERIC demo.event 
     
 ### Functions provide in Node class
     0. send_to_neighbors(m)  // send message to neighbors
