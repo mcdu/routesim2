@@ -1,6 +1,6 @@
 # Routesim2
 
-This is a simple network routing simulator written in Python.  It was primarily written by Kaiyu Hou, with minor tweaks by Steve Tarzia.  This code is based on the C++ Routesim code written by Peter Dinda.
+This is a simple network routing simulator written in Python.  It was primarily written by Kaiyu Hou, with minor tweaks by Steve Tarzia.  This code is based on the C++ Routesim code written by Peter Dinda. **The implementations of the distance vector and link state algorithms were written by mcdu.**
 
 ### Prerequisites:
 
