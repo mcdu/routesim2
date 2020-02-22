@@ -14,7 +14,7 @@ This code is written for Python 3 and it was tested on version 3.5.  Run the fol
     
 The first parameter can be either GENERIC, LINK_STATE, or DISTANCE_VECTOR.  The second parameter specifies the input file.
     
-### Functions provide in Node class
+### Functions provided in Node class
     0. send_to_neighbors(m)  // send message to neighbors
     1. send_to_neighbor(neighbor, m) // send message to a neighbor
     2. get_time()  // get current simulator time
